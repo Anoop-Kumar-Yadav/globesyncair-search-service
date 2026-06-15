@@ -33,4 +33,10 @@ const envVars = validationResult.value;
 module.exports = {
   NODE_ENV: envVars.NODE_ENV,
   PORT: envVars.PORT,
+  DB_USERNAME: envVars.DB_USERNAME,
+  DB_PASSWORD=envVars.DB_PASSWORD,
+  DB_NAME=envVars.DB_NAME,
+  DB_TEST_NAME=envVars.DB_TEST_NAME,
+  DB_HOST=envVars.DB_HOST,
+  DB_PORT=envVars.DB_PORT,
 };
